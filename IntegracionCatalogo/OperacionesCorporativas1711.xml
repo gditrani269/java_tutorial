@@ -1,0 +1,68 @@
+<entry xml:base="http://ecc.bancogalicia.com.ar/sites/ac/soa/_api/" m:etag="&quot;2&quot;" xmlns="http://www.w3.org/2005/Atom" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:georss="http://www.georss.org/georss" xmlns:gml="http://www.opengis.net/gml">
+   <id>Web/Lists(guid'013f2175-5d54-43bb-bb15-235f80eac39d')/Items(1711)</id>
+   <category term="SP.Data.Servicios_x0020_en_x0020_elaboracionListItem" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+   <link rel="edit" href="Web/Lists(guid'013f2175-5d54-43bb-bb15-235f80eac39d')/Items(1711)"/>
+   <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/FirstUniqueAncestorSecurableObject" type="application/atom+xml;type=entry" title="FirstUniqueAncestorSecurableObject" href="Web/Lists(guid'013f2175-5d54-43bb-bb15-235f80eac39d')/Items(1711)/FirstUniqueAncestorSecurableObject"/>
+   <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/RoleAssignments" type="application/atom+xml;type=feed" title="RoleAssignments" href="Web/Lists(guid'013f2175-5d54-43bb-bb15-235f80eac39d')/Items(1711)/RoleAssignments"/>
+   <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AttachmentFiles" type="application/atom+xml;type=feed" title="AttachmentFiles" href="Web/Lists(guid'013f2175-5d54-43bb-bb15-235f80eac39d')/Items(1711)/AttachmentFiles"/>
+   <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/ContentType" type="application/atom+xml;type=entry" title="ContentType" href="Web/Lists(guid'013f2175-5d54-43bb-bb15-235f80eac39d')/Items(1711)/ContentType"/>
+   <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/FieldValuesAsHtml" type="application/atom+xml;type=entry" title="FieldValuesAsHtml" href="Web/Lists(guid'013f2175-5d54-43bb-bb15-235f80eac39d')/Items(1711)/FieldValuesAsHtml"/>
+   <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/FieldValuesAsText" type="application/atom+xml;type=entry" title="FieldValuesAsText" href="Web/Lists(guid'013f2175-5d54-43bb-bb15-235f80eac39d')/Items(1711)/FieldValuesAsText"/>
+   <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/FieldValuesForEdit" type="application/atom+xml;type=entry" title="FieldValuesForEdit" href="Web/Lists(guid'013f2175-5d54-43bb-bb15-235f80eac39d')/Items(1711)/FieldValuesForEdit"/>
+   <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/File" type="application/atom+xml;type=entry" title="File" href="Web/Lists(guid'013f2175-5d54-43bb-bb15-235f80eac39d')/Items(1711)/File"/>
+   <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Folder" type="application/atom+xml;type=entry" title="Folder" href="Web/Lists(guid'013f2175-5d54-43bb-bb15-235f80eac39d')/Items(1711)/Folder"/>
+   <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/ParentList" type="application/atom+xml;type=entry" title="ParentList" href="Web/Lists(guid'013f2175-5d54-43bb-bb15-235f80eac39d')/Items(1711)/ParentList"/>
+   <title/>
+   <updated>2018-09-28T19:07:33Z</updated>
+   <author>
+      <name/>
+   </author>
+   <content type="application/xml">
+      <m:properties>
+         <d:FileSystemObjectType m:type="Edm.Int32">0</d:FileSystemObjectType>
+         <d:Id m:type="Edm.Int32">1711</d:Id>
+         <d:Id_x0020_Operaci_x00f3_n_x0020__ m:type="Edm.Double">1711</d:Id_x0020_Operaci_x00f3_n_x0020__>
+         <d:Nombre_x0020_Funcional_x0020_SerId m:type="Edm.Int32">862</d:Nombre_x0020_Funcional_x0020_SerId>
+         <d:Operaci_x00f3_n_x0020_Funcional>Acreditar Monto</d:Operaci_x00f3_n_x0020_Funcional>
+         <d:Nombre_x0020_de_x0020_Servicio_x m:null="true"/>
+         <d:Nombre_x0020_de_x0020_Operaci_x0 m:null="true"/>
+         <d:Nombre_x0020_T_x00e9_cnico_x0020>AccionesAcreditamientoFCR</d:Nombre_x0020_T_x00e9_cnico_x0020>
+         <d:Title>AcreditarMonto</d:Title>
+         <d:Versi_x00f3_n_x0020_del_x0020_Se>1.0.0</d:Versi_x00f3_n_x0020_del_x0020_Se>
+         <d:Descripci_x00f3_n>El objetivo del servicio es permitir el acreditamiento de dinero en CA mediante algún proceso de FCR</d:Descripci_x00f3_n>
+         <d:Estado>En proceso de Desarrollo</d:Estado>
+         <d:Id_x0020_Desarrollo m:null="true"/>
+         <d:Alcance>A2X</d:Alcance>
+         <d:ProveedorId m:type="Edm.Int32">282</d:ProveedorId>
+         <d:Proveedor_x002f_esId m:type="Collection(Edm.Int32)">
+            <d:element>282</d:element>
+         </d:Proveedor_x002f_esId>
+         <d:Consumidores2Id m:type="Collection(Edm.Int32)">
+            <d:element>14</d:element>
+         </d:Consumidores2Id>
+         <d:Protocolo m:type="Collection(Edm.String)">
+            <d:element>HTTP-SOAP (WS)</d:element>
+         </d:Protocolo>
+         <d:Patr_x00f3_n_x0020_de_x0020_Comu>Query / Reply</d:Patr_x00f3_n_x0020_de_x0020_Comu>
+         <d:RequerimientoId m:type="Collection(Edm.Int32)"/>
+         <d:Notas_x0020_de_x0020_DIse_x00f1_ m:null="true"/>
+         <d:Mensaje_x0020_Input_x0020_Provee>http://ecc.bancogalicia.com.ar/sites/ac/soa/Documentos%20de%20Servicios%20Publicados/Forms/AllItems.aspx?RootFolder=%2Fsites%2Fac%2Fsoa%2FDocumentos%20de%20Servicios%20Publicados%2FAccionesAcreditamientoFCR&amp;FolderCTID=0x01200077D7D3527171844EBD203F327B7DA150&amp;View=%7B685F82F5-AA61-42D7-8863-B528B8DB604F%7D&amp;InitialTabId=Ribbon%2EDocument&amp;VisibilityContext=WSSTabPersistence</d:Mensaje_x0020_Input_x0020_Provee>
+         <d:Link_x0020_a_x0020_Casos_x0020_D m:null="true"/>
+         <d:Link_x0020_a_x0020_la_x0020_Fich m:null="true"/>
+         <d:ProcesoId m:type="Collection(Edm.Int32)"/>
+         <d:Ficha_x0020_Completa m:type="SP.FieldUrlValue">
+            <d:Description>AcreditarMonto</d:Description>
+            <d:Url>http://ecc.bancogalicia.com.ar/sites/ac/soa/_layouts/15/listform.aspx?PageType=4&amp;ListId=%7B7F0B9A74%2D89AB%2D4967%2D997D%2DCE2D2BE56AEF%7D&amp;ID=1405&amp;ContentTypeID=0x010069C1EDA09E13FD4C917ED999A5F81810</d:Url>
+         </d:Ficha_x0020_Completa>
+         <d:ContentTypeId>0x010035767CF389C38F48BFE324711E5D6374</d:ContentTypeId>
+         <d:ID m:type="Edm.Int32">1711</d:ID>
+         <d:Modified m:type="Edm.DateTime">2018-06-01T14:12:42Z</d:Modified>
+         <d:Created m:type="Edm.DateTime">2018-06-01T14:10:49Z</d:Created>
+         <d:AuthorId m:type="Edm.Int32">1388</d:AuthorId>
+         <d:EditorId m:type="Edm.Int32">1388</d:EditorId>
+         <d:OData__UIVersionString>2.0</d:OData__UIVersionString>
+         <d:Attachments m:type="Edm.Boolean">false</d:Attachments>
+         <d:GUID m:type="Edm.Guid">3f783d62-37ab-42b7-b732-a8a3d0157401</d:GUID>
+      </m:properties>
+   </content>
+</entry>

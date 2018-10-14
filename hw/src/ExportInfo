@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml-fragment name="" version="v2">
+  <imp:properties xmlns:imp="http://www.bea.com/wli/config/importexport">
+    <imp:property name="username" value="Compilador"/>
+    <imp:property name="description" value=""/>
+    <imp:property name="exporttime" value="Sat Jun 30 14:40:58 ART 2018"/>
+    <imp:property name="productname" value="Oracle Service Bus"/>
+    <imp:property name="productversion" value="11.1.1.7"/>
+    <imp:property name="projectLevelExport" value="false"/>
+  </imp:properties>
+  <imp:exportedItemInfo instanceId="ServiciosComunesProductos/AdministracionCuentaDebitoPrestamos/v1/ProxyService/AdministracionCuentaDebitoPrestamos-1.0.0_Basica" typeId="ProxyService" xmlns:imp="http://www.bea.com/wli/config/importexport">
+    <imp:properties>
+      <imp:property name="representationversion" value="3000"/>
+      <imp:property name="dataclass" value="com.bea.wli.sb.services.impl.ServiceDefinitionImpl"/>
+      <imp:property name="isencrypted" value="false"/>
+      <imp:property name="jarentryname" value="ServiciosComunesProductos/AdministracionCuentaDebitoPrestamos/v1/ProxyService/AdministracionCuentaDebitoPrestamos-1.0..ProxyService"/>
+      <imp:property name="extrefs" value="ProxyService$ServiciosComunesProductos$AdministracionCuentaDebitoPrestamos$v1$ProxyService$AdministracionCuentaDebitoPrestamos-1.0.0_Local"/>
+      <imp:property name="extrefs" value="WSDL$ServiciosComunesProductos$AdministracionCuentaDebitoPrestamos$v1$AdministracionCuentaDebitoPrestamos-1.0.0"/>
+    </imp:properties>
+  </imp:exportedItemInfo>
+</xml-fragment>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml-fragment xmlns:ser="http://www.bea.com/wli/sb/services" xmlns:tran="http://www.bea.com/wli/sb/transports" xmlns:env="http://www.bea.com/wli/config/env" xmlns:http="http://www.bea.com/wli/sb/transports/http" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://www.bea.com/wli/sb/pipeline/config" xmlns:con1="http://www.bea.com/wli/sb/stages/config" xmlns:con2="http://www.bea.com/wli/sb/stages/routing/config">
+  <ser:coreEntry isProxy="true" isEnabled="true" isAutoPublish="false" isTracingEnabled="false">
+    <ser:security>
+      <con3:access-control-policies xmlns:con3="http://www.bea.com/wli/sb/services/security/config">
+        <con4:transport-level-policy xsi:type="con3:ProviderPolicyContainerType" xmlns:con3="http://www.bea.com/wli/sb/security/accesscontrol/config" xmlns:con4="http://www.bea.com/wli/sb/services/security/config">
+          <con3:policy provider-id="XACMLAuthorizer">
+            <con3:policy-expression>Usr(ussrm99m)</con3:policy-expression>
+          </con3:policy>
+        </con4:transport-level-policy>
+      </con3:access-control-policies>
+    </ser:security>
+    <ser:binding type="SOAP" isSoap12="false" xsi:type="con:SoapBindingType" xmlns:con="http://www.bea.com/wli/sb/services/bindings/config">
+      <con:wsdl ref="ServiciosComunesProductos/AdministracionCuentaDebitoPrestamos/v1/AdministracionCuentaDebitoPrestamos-1.0.0"/>
+      <con:port>
+        <con:name>ManageLoanContractBankAccountDebtIn</con:name>
+        <con:namespace>urn:bancogalicia.com.ar:banking:loancontractpaymentprocessing</con:namespace>
+      </con:port>
+      <con:selector type="SOAP body"/>
+    </ser:binding>
+    <ser:monitoring isEnabled="false">
+      <ser:aggregationInterval>10</ser:aggregationInterval>
+      <ser:pipelineMonitoringLevel>Pipeline</ser:pipelineMonitoringLevel>
+    </ser:monitoring>
+    <ser:reporting>true</ser:reporting>
+    <ser:logging isEnabled="true">
+      <ser:logLevel>debug</ser:logLevel>
+    </ser:logging>
+    <ser:sla-alerting isEnabled="true">
+      <ser:alertLevel>normal</ser:alertLevel>
+    </ser:sla-alerting>
+    <ser:pipeline-alerting isEnabled="true">
+      <ser:alertLevel>normal</ser:alertLevel>
+    </ser:pipeline-alerting>
+    <ser:ws-policy>
+      <ser:binding-mode>wsdl-policy-attachments</ser:binding-mode>
+    </ser:ws-policy>
+  </ser:coreEntry>
+  <ser:endpointConfig>
+    <tran:provider-id>http</tran:provider-id>
+    <tran:inbound>true</tran:inbound>
+    <tran:URI>
+      <env:value>/administracioncuentadebitoprestamos/basica</env:value>
+    </tran:URI>
+    <tran:inbound-properties/>
+    <tran:all-headers>false</tran:all-headers>
+    <tran:provider-specific xsi:type="http:HttpEndPointConfiguration">
+      <http:inbound-properties>
+        <http:client-authentication xsi:type="http:HttpBasicAuthenticationType"/>
+      </http:inbound-properties>
+    </tran:provider-specific>
+  </ser:endpointConfig>
+  <ser:router>
+    <con:pipeline type="error" name="_onErrorHandler-2598900241344343186--1581f0f2.163acaceb24.-7052">
+      <con:stage name="stage1">
+        <con:context/>
+        <con:actions>
+          <con1:reply>
+            <con1:id>_ActionId-2598900241344343186--1581f0f2.163acaceb24.-701a</con1:id>
+          </con1:reply>
+        </con:actions>
+      </con:stage>
+    </con:pipeline>
+    <con:flow>
+      <con:route-node name="RouteNode1" error-handler="_onErrorHandler-2598900241344343186--1581f0f2.163acaceb24.-7052">
+        <con:context/>
+        <con:actions>
+          <con2:route>
+            <con1:id>_ActionId-2598900241344343186--1581f0f2.163acaceb24.-7053</con1:id>
+            <con2:service ref="ServiciosComunesProductos/AdministracionCuentaDebitoPrestamos/v1/ProxyService/AdministracionCuentaDebitoPrestamos-1.0.0_Local" xsi:type="ref:ProxyRef" xmlns:ref="http://www.bea.com/wli/sb/reference"/>
+            <con2:outboundTransform/>
+            <con2:responseTransform/>
+          </con2:route>
+        </con:actions>
+      </con:route-node>
+    </con:flow>
+  </ser:router>
+</xml-fragment>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cus:Customizations xmlns:cus="http://www.bea.com/wli/config/customizations" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xt="http://www.bea.com/wli/config/xmltypes">
+  <cus:customization xsi:type="cus:EnvValueCustomizationType">
+    <cus:description/>
+    <cus:envValueAssignments>
+      <xt:envValueType>Service URI Weight</xt:envValueType>
+      <xt:location>0</xt:location>
+      <xt:owner>
+        <xt:type>BusinessService</xt:type>
+        <xt:path>GeneracionEnvioDeInformacionAlCliente/AccionesConversacionAsistenteVirtual/v1/BusinessService/ObtenerConversacionCalificada</xt:path>
+      </xt:owner>
+      <xt:value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">0</xt:value>
+    </cus:envValueAssignments>
+    <cus:envValueAssignments>
+      <xt:envValueType>Service URI</xt:envValueType>
+      <xt:location>0</xt:location>
+      <xt:owner>
+        <xt:type>BusinessService</xt:type>
+        <xt:path>GeneracionEnvioDeInformacionAlCliente/AccionesConversacionAsistenteVirtual/v1/BusinessService/ObtenerConversacionCalificada</xt:path>
+      </xt:owner>
+      <xt:value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">http://dwatsonapp.bancogalicia.com.ar:9080/orquestador-conversation/rest/ObtenerConversacionCalificada</xt:value>
+    </cus:envValueAssignments>
+    <cus:envValueAssignments>
+      <xt:envValueType>Service URI Table</xt:envValueType>
+      <xt:location xsi:nil="true"/>
+      <xt:owner>
+        <xt:type>BusinessService</xt:type>
+        <xt:path>GeneracionEnvioDeInformacionAlCliente/AccionesConversacionAsistenteVirtual/v1/BusinessService/ObtenerConversacionCalificada</xt:path>
+      </xt:owner>
+      <xt:value>
+        <tableElement xmlns="http://www.bea.com/wli/sb/transports">
+          <URI>http://dwatsonapp.bancogalicia.com.ar:9080/orquestador-conversation/rest/ObtenerConversacionCalificada</URI>
+          <weight>0</weight>
+        </tableElement>
+      </xt:value>
+    </cus:envValueAssignments>
+    <cus:envValueAssignments>
+      <xt:envValueType>Service Retry Count</xt:envValueType>
+      <xt:location xsi:nil="true"/>
+      <xt:owner>
+        <xt:type>BusinessService</xt:type>
+        <xt:path>GeneracionEnvioDeInformacionAlCliente/AccionesConversacionAsistenteVirtual/v1/BusinessService/ObtenerConversacionCalificada</xt:path>
+      </xt:owner>
+      <xt:value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">0</xt:value>
+    </cus:envValueAssignments>
+    <cus:envValueAssignments>
+      <xt:envValueType>Service Retry Iteration Interval</xt:envValueType>
+      <xt:location xsi:nil="true"/>
+      <xt:owner>
+        <xt:type>BusinessService</xt:type>
+        <xt:path>GeneracionEnvioDeInformacionAlCliente/AccionesConversacionAsistenteVirtual/v1/BusinessService/ObtenerConversacionCalificada</xt:path>
+      </xt:owner>
+      <xt:value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">0</xt:value>
+    </cus:envValueAssignments>
+    <cus:envValueAssignments>
+      <xt:envValueType>Work Manager</xt:envValueType>
+      <xt:location xsi:nil="true"/>
+      <xt:owner>
+        <xt:type>BusinessService</xt:type>
+        <xt:path>GeneracionEnvioDeInformacionAlCliente/AccionesConversacionAsistenteVirtual/v1/BusinessService/ObtenerConversacionCalificada</xt:path>
+      </xt:owner>
+      <xt:value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">SBDefaultResponseWorkManager</xt:value>
+    </cus:envValueAssignments>
+    <cus:envValueAssignments>
+      <xt:envValueType>Http Outbound Socket Read Timeout</xt:envValueType>
+      <xt:location xsi:nil="true"/>
+      <xt:owner>
+        <xt:type>BusinessService</xt:type>
+        <xt:path>GeneracionEnvioDeInformacionAlCliente/AccionesConversacionAsistenteVirtual/v1/BusinessService/ObtenerConversacionCalificada</xt:path>
+      </xt:owner>
+      <xt:value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">30</xt:value>
+    </cus:envValueAssignments>
+    <cus:envValueAssignments>
+      <xt:envValueType>Http Outbound Connection Timeout</xt:envValueType>
+      <xt:location xsi:nil="true"/>
+      <xt:owner>
+        <xt:type>BusinessService</xt:type>
+        <xt:path>GeneracionEnvioDeInformacionAlCliente/AccionesConversacionAsistenteVirtual/v1/BusinessService/ObtenerConversacionCalificada</xt:path>
+      </xt:owner>
+      <xt:value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">5</xt:value>
+    </cus:envValueAssignments>
+    <cus:envValueAssignments>
+      <xt:envValueType>Service URI Weight</xt:envValueType>
+      <xt:location>0</xt:location>
+      <xt:owner>
+        <xt:type>BusinessService</xt:type>
+        <xt:path>GeneracionEnvioDeInformacionAlCliente/AccionesConversacionAsistenteVirtual/v1/BusinessService/ObtenerRespuestaCalificada</xt:path>
+      </xt:owner>
+      <xt:value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">0</xt:value>
+    </cus:envValueAssignments>
+    <cus:envValueAssignments>
+      <xt:envValueType>Service URI</xt:envValueType>
+      <xt:location>0</xt:location>
+      <xt:owner>
+        <xt:type>BusinessService</xt:type>
+        <xt:path>GeneracionEnvioDeInformacionAlCliente/AccionesConversacionAsistenteVirtual/v1/BusinessService/ObtenerRespuestaCalificada</xt:path>
+      </xt:owner>
+      <xt:value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">http://homoosb:8021/sbconsole/sbconsole.portal?_nfpb=true&amp;_pageLabel=ChangeManagement&amp;ViewChangesPortlet_actionOverride=/changemgmt/ViewChanges&amp;_windowLabel=ViewChangesPortlet</xt:value>
+    </cus:envValueAssignments>
+    <cus:envValueAssignments>
+      <xt:envValueType>Service URI Table</xt:envValueType>
+      <xt:location xsi:nil="true"/>
+      <xt:owner>
+        <xt:type>BusinessService</xt:type>
+        <xt:path>GeneracionEnvioDeInformacionAlCliente/AccionesConversacionAsistenteVirtual/v1/BusinessService/ObtenerRespuestaCalificada</xt:path>
+      </xt:owner>
+      <xt:value>
+        <tableElement xmlns="http://www.bea.com/wli/sb/transports">
+          <URI>http://homoosb:8021/sbconsole/sbconsole.portal?_nfpb=true&amp;_pageLabel=ChangeManagement&amp;ViewChangesPortlet_actionOverride=/changemgmt/ViewChanges&amp;_windowLabel=ViewChangesPortlet</URI>
+          <weight>0</weight>
+        </tableElement>
+      </xt:value>
+    </cus:envValueAssignments>
+    <cus:envValueAssignments>
+      <xt:envValueType>Service Retry Count</xt:envValueType>
+      <xt:location xsi:nil="true"/>
+      <xt:owner>
+        <xt:type>BusinessService</xt:type>
+        <xt:path>GeneracionEnvioDeInformacionAlCliente/AccionesConversacionAsistenteVirtual/v1/BusinessService/ObtenerRespuestaCalificada</xt:path>
+      </xt:owner>
+      <xt:value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">0</xt:value>
+    </cus:envValueAssignments>
+    <cus:envValueAssignments>
+      <xt:envValueType>Service Retry Iteration Interval</xt:envValueType>
+      <xt:location xsi:nil="true"/>
+      <xt:owner>
+        <xt:type>BusinessService</xt:type>
+        <xt:path>GeneracionEnvioDeInformacionAlCliente/AccionesConversacionAsistenteVirtual/v1/BusinessService/ObtenerRespuestaCalificada</xt:path>
+      </xt:owner>
+      <xt:value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">0</xt:value>
+    </cus:envValueAssignments>
+    <cus:envValueAssignments>
+      <xt:envValueType>Work Manager</xt:envValueType>
+      <xt:location xsi:nil="true"/>
+      <xt:owner>
+        <xt:type>BusinessService</xt:type>
+        <xt:path>GeneracionEnvioDeInformacionAlCliente/AccionesConversacionAsistenteVirtual/v1/BusinessService/ObtenerRespuestaCalificada</xt:path>
+      </xt:owner>
+      <xt:value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">SBDefaultResponseWorkManager</xt:value>
+    </cus:envValueAssignments>
+    <cus:envValueAssignments>
+      <xt:envValueType>Http Outbound Socket Read Timeout</xt:envValueType>
+      <xt:location xsi:nil="true"/>
+      <xt:owner>
+        <xt:type>BusinessService</xt:type>
+        <xt:path>GeneracionEnvioDeInformacionAlCliente/AccionesConversacionAsistenteVirtual/v1/BusinessService/ObtenerRespuestaCalificada</xt:path>
+      </xt:owner>
+      <xt:value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">30</xt:value>
+    </cus:envValueAssignments>
+    <cus:envValueAssignments>
+      <xt:envValueType>Http Outbound Connection Timeout</xt:envValueType>
+      <xt:location xsi:nil="true"/>
+      <xt:owner>
+        <xt:type>BusinessService</xt:type>
+        <xt:path>GeneracionEnvioDeInformacionAlCliente/AccionesConversacionAsistenteVirtual/v1/BusinessService/ObtenerRespuestaCalificada</xt:path>
+      </xt:owner>
+      <xt:value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">5</xt:value>
+    </cus:envValueAssignments>
+    <cus:envValueAssignments>
+      <xt:envValueType>Service URI Weight</xt:envValueType>
+      <xt:location>0</xt:location>
+      <xt:owner>
+        <xt:type>BusinessService</xt:type>
+        <xt:path>GeneracionEnvioDeInformacionAlCliente/AccionesConversacionAsistenteVirtual/v1/BusinessService/ObtenerRespuesta</xt:path>
+      </xt:owner>
+      <xt:value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">0</xt:value>
+    </cus:envValueAssignments>
+    <cus:envValueAssignments>
+      <xt:envValueType>Service URI</xt:envValueType>
+      <xt:location>0</xt:location>
+      <xt:owner>
+        <xt:type>BusinessService</xt:type>
+        <xt:path>GeneracionEnvioDeInformacionAlCliente/AccionesConversacionAsistenteVirtual/v1/BusinessService/ObtenerRespuesta</xt:path>
+      </xt:owner>
+      <xt:value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">https://release.bancogalicia.com.ar/workcenter/tmtrack.dll?shell=swc&amp;LogoutPage&amp;fsid=b7a2d1ba1bbb45%20f09d394c57da2dd1a9&amp;gsid=3771e362a2344e41b7d1a7896bd910b8&amp;wctx=1783%3A2062044481</xt:value>
+    </cus:envValueAssignments>
+    <cus:envValueAssignments>
+      <xt:envValueType>Service URI Table</xt:envValueType>
+      <xt:location xsi:nil="true"/>
+      <xt:owner>
+        <xt:type>BusinessService</xt:type>
+        <xt:path>GeneracionEnvioDeInformacionAlCliente/AccionesConversacionAsistenteVirtual/v1/BusinessService/ObtenerRespuesta</xt:path>
+      </xt:owner>
+      <xt:value>
+        <tableElement xmlns="http://www.bea.com/wli/sb/transports">
+          <URI>https://release.bancogalicia.com.ar/workcenter/tmtrack.dll?shell=swc&amp;LogoutPage&amp;fsid=b7a2d1ba1bbb45%20f09d394c57da2dd1a9&amp;gsid=3771e362a2344e41b7d1a7896bd910b8&amp;wctx=1783%3A2062044481</URI>
+          <weight>0</weight>
+        </tableElement>
+      </xt:value>
+    </cus:envValueAssignments>
+    <cus:envValueAssignments>
+      <xt:envValueType>Service Retry Count</xt:envValueType>
+      <xt:location xsi:nil="true"/>
+      <xt:owner>
+        <xt:type>BusinessService</xt:type>
+        <xt:path>GeneracionEnvioDeInformacionAlCliente/AccionesConversacionAsistenteVirtual/v1/BusinessService/ObtenerRespuesta</xt:path>
+      </xt:owner>
+      <xt:value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">0</xt:value>
+    </cus:envValueAssignments>
+    <cus:envValueAssignments>
+      <xt:envValueType>Service Retry Iteration Interval</xt:envValueType>
+      <xt:location xsi:nil="true"/>
+      <xt:owner>
+        <xt:type>BusinessService</xt:type>
+        <xt:path>GeneracionEnvioDeInformacionAlCliente/AccionesConversacionAsistenteVirtual/v1/BusinessService/ObtenerRespuesta</xt:path>
+      </xt:owner>
+      <xt:value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">0</xt:value>
+    </cus:envValueAssignments>
+    <cus:envValueAssignments>
+      <xt:envValueType>Work Manager</xt:envValueType>
+      <xt:location xsi:nil="true"/>
+      <xt:owner>
+        <xt:type>BusinessService</xt:type>
+        <xt:path>GeneracionEnvioDeInformacionAlCliente/AccionesConversacionAsistenteVirtual/v1/BusinessService/ObtenerRespuesta</xt:path>
+      </xt:owner>
+      <xt:value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">SBDefaultResponseWorkManager</xt:value>
+    </cus:envValueAssignments>
+    <cus:envValueAssignments>
+      <xt:envValueType>Http Outbound Socket Read Timeout</xt:envValueType>
+      <xt:location xsi:nil="true"/>
+      <xt:owner>
+        <xt:type>BusinessService</xt:type>
+        <xt:path>GeneracionEnvioDeInformacionAlCliente/AccionesConversacionAsistenteVirtual/v1/BusinessService/ObtenerRespuesta</xt:path>
+      </xt:owner>
+      <xt:value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">30</xt:value>
+    </cus:envValueAssignments>
+    <cus:envValueAssignments>
+      <xt:envValueType>Http Outbound Connection Timeout</xt:envValueType>
+      <xt:location xsi:nil="true"/>
+      <xt:owner>
+        <xt:type>BusinessService</xt:type>
+        <xt:path>GeneracionEnvioDeInformacionAlCliente/AccionesConversacionAsistenteVirtual/v1/BusinessService/ObtenerRespuesta</xt:path>
+      </xt:owner>
+      <xt:value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">5</xt:value>
+    </cus:envValueAssignments>
+  </cus:customization>
+  <cus:customization xsi:type="cus:FindAndReplaceCustomizationType">
+    <cus:description/>
+    <cus:query>
+      <xt:resourceTypes>BusinessService</xt:resourceTypes>
+      <xt:envValueTypes>Http Outbound Socket Read Timeout</xt:envValueTypes>
+      <xt:envValueTypes>Service Retry Iteration Interval</xt:envValueTypes>
+      <xt:envValueTypes>Work Manager</xt:envValueTypes>
+      <xt:envValueTypes>Http Outbound Connection Timeout</xt:envValueTypes>
+      <xt:envValueTypes>Service URI Weight</xt:envValueTypes>
+      <xt:envValueTypes>Service Retry Count</xt:envValueTypes>
+      <xt:envValueTypes>Service URI</xt:envValueTypes>
+      <xt:refsToSearch xsi:type="xt:ResourceRefType">
+        <xt:type>BusinessService</xt:type>
+        <xt:path>GeneracionEnvioDeInformacionAlCliente/AccionesConversacionAsistenteVirtual/v1/BusinessService/ObtenerConversacionCalificada</xt:path>
+      </xt:refsToSearch>
+      <xt:refsToSearch xsi:type="xt:ResourceRefType">
+        <xt:type>BusinessService</xt:type>
+        <xt:path>GeneracionEnvioDeInformacionAlCliente/AccionesConversacionAsistenteVirtual/v1/BusinessService/ObtenerRespuestaCalificada</xt:path>
+      </xt:refsToSearch>
+      <xt:refsToSearch xsi:type="xt:ResourceRefType">
+        <xt:type>BusinessService</xt:type>
+        <xt:path>GeneracionEnvioDeInformacionAlCliente/AccionesConversacionAsistenteVirtual/v1/BusinessService/ObtenerRespuesta</xt:path>
+      </xt:refsToSearch>
+      <xt:includeOnlyModifiedResources>false</xt:includeOnlyModifiedResources>
+      <xt:searchString>Search String</xt:searchString>
+      <xt:isCompleteMatch>false</xt:isCompleteMatch>
+    </cus:query>
+    <cus:replacement>Replacement String</cus:replacement>
+  </cus:customization>
+  <cus:customization xsi:type="cus:ReferenceCustomizationType">
+    <cus:description/>
+  </cus:customization>
+</cus:Customizations>

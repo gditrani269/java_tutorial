@@ -1,0 +1,14 @@
+http://java-samples.com/showtutorial.php?tutorialid=1732
+
+http://www.java-samples.com/showtutorial.php?tutorialid=1733
+parado en
+cd C:\Program Files\Java
+
+compilado con:
+"C:\Program Files\Java\jdk1.8.0_05\bin\javac.exe" javasamples/one/*.java
+
+servidor se ejecuta con:
+"C:\Program Files\Java\jdk1.8.0_05\bin\java.exe" javasamples.one.TimeServerPublisher
+
+cliente se ejecuta con:
+"C:\Program Files\Java\jdk1.8.0_05\bin\java.exe" javasamples.one.TimeClient
